@@ -1,0 +1,10 @@
+name: ust
+channels:
+  - defaults
+dependencies:
+  - python=3.5
+  - cudatoolkit=10.2
+  - cudnn=7.6
+  - pip
+  - pip:
+      - pip-tools
